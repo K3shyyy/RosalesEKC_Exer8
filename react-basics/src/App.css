@@ -1,0 +1,129 @@
+
+.App {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.navigation-buttons {
+  display: flex;
+}
+
+.navigation-button {
+  margin-left: 10px;
+  color: #fefae0; /* Light yellow */
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 20px;
+  border: 2px solid #fefae0; /* Light yellow */
+  transition: all 0.3s ease;
+}
+
+.navigation-button:hover {
+  background-color: #fefae0; /* Light yellow */
+  color: #283618; /* Dark green */
+}
+
+.company h1 {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: #283618; /* Dark green */
+  color: #fefae0; /* Light yellow */
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 10px;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.item-card {
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  border: 3px solid #606c38; /* Olive green */
+  border-radius: 5px;
+}
+
+.item-card img {
+  width: 100%;
+  height: auto;
+}
+
+.add-to-cart {
+  background-color: #dda15e; /* Light brown */
+  color: #fefae0; /* Light yellow */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #bc6c25; /* Dark orange */
+}
+
+.content {
+  display: flex;
+}
+
+.shopping-cart {
+  flex: 1;
+  padding: 70px;
+  color:#fefae0;
+  width: 20%;
+  background-color:#606C38;
+}
+
+.shopping-cart h2 {
+  white-space: nowrap; /* Prevent title from wrapping */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.remove-button {
+  background-color: #283618;;
+  border: none;
+  color: #fefae0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  transition: color 0.3s ease;
+  margin-left: 30px;
+}
+
+.remove-button:hover {
+  background-color: #ff5555; /* Lighter red */
+}
